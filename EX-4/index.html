@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Card</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="profile-card">
+
+        <!-- Profile picture -->
+        <img
+            src="C:\Users\User\OneDrive - Cambodia Academy of Digital Technology\Pictures\Jamebie99.jpg"
+            alt="Profile picture"
+            class="profile-picture"
+        >
+
+        <!-- Name -->
+        <h2 style="color: black;">Cheuchoeun Jamebie</h2>
+
+        <!-- Short bio -->
+        <p class="major">Computer Science Student</p>
+
+        <p class="bio">
+            I am a student of CS Department specialized Data Science from CADT.
+            I enjoy technology, solving problems, and learning new skills.
+        </p>
+        
+        
+        <div class="social-links">
+
+            <!-- Facebook logo -->
+            <a href="https://www.facebook.com/share/19eb8vPdkS/?mibextid=wwXIfr" target="_blank">
+                <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/facebook.svg"
+                    alt="Facebook"
+                >
+            </a>
+
+            <!-- Telegram logo -->
+            <a href="https://t.me/choeunjb" target="_blank">
+                <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/telegram.svg"
+                    alt="Telegram"
+                >
+            </a>
+
+            <!-- IG logo -->
+            <a href="https://www.instagram.com/cheuchoeun_jb?cplk=enliMzY3dXE5emhs&utm_source=qr" target="_blank">
+                <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg"
+                    alt="Instagram"
+                >
+            </a>
+
+        </div>
+
+
+
+        <!-- Profile statistics -->
+        <div class="stats">
+            <div>
+                <strong>2</strong>
+                <span>Projects</span>
+            </div>
+
+            <div>
+                <strong>168</strong>
+                <span>Following</span>
+            </div>
+
+            <div>
+                <strong>168K</strong>
+                <span>Followers</span>
+            </div>
+        </div>
+
+        <!-- Interactive button -->
+        <button onclick="showMessage()">View Profile</button>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Hello! Welcome to my profile.");
+        }
+    </script>
+
+</body>
+</html>

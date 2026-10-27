@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: white;
+    font-family: sans-serif;
+}
+
+.tips {
+    box-sizing: border-box;
+    width: min(80%, 745px);
+    margin: 20px auto;
+    padding: 28px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: grey;
+}
+
+.tip {
+    box-sizing: border-box;
+    width: 71%;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+}
+
+.tip p {
+    margin: 16px 0;
+}
+
+.tip button {
+    padding: 10px;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.tip:nth-child(1) button {
+    background: teal;
+}
+
+.tip:nth-child(2) button {
+    background: orange;
+    color: black;
+}
+
+.tip:nth-child(3) button {
+    background: purple;
+}
+
+@media (max-width: 600px) {
+    .tips {
+        width: calc(100% - 32px);
+    }
+
+    .tip {
+        width: 86%;
+    }
+}
